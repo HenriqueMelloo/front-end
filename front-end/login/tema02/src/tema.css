@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffebf0;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffe3ed;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+    color: #ff69b4;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    width: 20%;
+    display: block;
+    margin-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.login-container input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.login-container input:focus {
+    border-color: #ff69b4;
+    outline: none;
+    box-shadow: 0 0 10px #ff69b4;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff69b4;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #ff1493;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffebf0;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://example.com/naruto-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-container {
+    background-color: rgba(255, 165, 0, 0.9);
+    /* Naruto's orange color with opacity */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+    /* Shadow with an orange hue */
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 30px;
+    color: #ff4500;
+    /* Stronger orange-red */
+    font-family: 'Pacifico', cursive;
+    text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500;
+    /* Neon-like shadow */
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    width: 20%;
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    /* White color for better contrast */
+}
+
+.login-container input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.login-container input:focus {
+    border-color: #ff4500;
+    outline: none;
+    box-shadow: 0 0 10px #ff4500;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #e63900;
+}
